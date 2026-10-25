@@ -73,3 +73,5 @@ scripts/
 kilo.jsonc
 opencode.json
 prepare_for_github.sh
+project_dump.txt
+docPRO/
