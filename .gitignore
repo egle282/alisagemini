@@ -1,0 +1,74 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual Environments
+.venv
+.venv/
+.venv*/
+venv/
+ENV/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archives & Logs
+*.log
+*.zip
+*.tar.gz
+
+# AI Assistants & IDE Internal configs
+.agents/
+.ai-pack/
+.antigravity/
+.claude/
+.clinerules/
+.codegpt/
+.continue/
+.gemini/
+.grok/
+.hermes/
+.kilo/
+.kimi-code/
+.koda/
+.minimax-agent/
+.ollama/
+.qwen/
+.pre-commit-config.yaml
+.reff-linter.toml
+
+# Internal Project Pack & Temp Specs
+AI_PROJECT_PACK/
+Ruls_ReFF.txt
+TZ_alisageminy.md
+reff_linter.py
+PACK_MANIFEST.md
+CLAUDE.md
+USER.md
+AGENTS.md
+SECURITY.md
+CONTRIBUTING.md
+PROJECT_STATUS.md
+config/
+docs/
+scripts/
+kilo.jsonc
+opencode.json
